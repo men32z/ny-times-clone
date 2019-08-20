@@ -1,0 +1,15 @@
+.block-left{
+  float: left;
+}
+
+.menu-icon{
+  display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+}
+.logo{
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 0;
+}
