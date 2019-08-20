@@ -1,3 +1,28 @@
+nav, main, footer {
+float:left;
+width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.main-picture {
+  margin: 0 auto;
+  max-width: 945px;
+  cursor: pointer;
+}
+
+.main-picture img {
+  width: 100%;
+}
+
+
 .block-left{
   float: left;
 }
@@ -13,3 +38,6 @@
   height: 26px;
   margin: 6px auto 0;
 }
+
+
+
