@@ -1,12 +1,25 @@
-nav, main, footer {
+/*1 General */
+/*2 Header*/
+/*2.1 Nav*/
+/*3 Main Content*/
+/*4 Sidebar*/
+/*5 Footer*/
+
+/*1 General */
+nav, main, footer,  section{
 float:left;
 width: 100%;
 }
-
+.block-left{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+/*2 Header*/
 header {
   width: 100%;
 }
-
 .title {
   display: flex;
   justify-content: center;
@@ -22,10 +35,7 @@ header {
   width: 100%;
 }
 
-
-.block-left{
-  float: left;
-}
+/*2.1 Nav*/
 
 .menu-icon{
   display: inline-block;
@@ -33,11 +43,36 @@ header {
   vertical-align: sub;
   width: 16px;
 }
+
 .logo{
   width: 195px;
   height: 26px;
   margin: 6px auto 0;
 }
 
-
-
+/*3 Main Content*/
+.text-section{
+  max-width: 600px;
+  margin:0 auto;
+}
+.social-links{
+  float: right;
+}
+.social-links ul{
+  list-style: none;
+  margin-top:0;
+}
+.social-links ul li{
+  display: inline;
+  margin: 0 5px;
+}
+.author{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.article-date{
+  float: left;
+  margin-top:10px;
+}
+/*4 Sidebar*/
+/* Footer*/
