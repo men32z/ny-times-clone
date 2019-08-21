@@ -142,6 +142,12 @@ figcaption small {
   color: #888;
 }
 
+.line{
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0px auto 18px;
+}
+
 .comments{
   align-items: center;
   background: transparent none repeat scroll 0% 0%;
@@ -152,6 +158,14 @@ figcaption small {
   padding: 4px;
   position: relative;
   width: auto;
+}
+
+.image-blocks{
+  max-width: 945;
+  margin: 0 auto;
+}
+.image-blocks img{
+  width: 100%;
 }
 
 .comments:before{
@@ -179,8 +193,9 @@ figcaption small {
 }
 
 .text-section{
+  float: left;
   max-width: 600px;
-  margin:0 auto;
+  margin-left: calc((100% - 600px)/2);
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
@@ -233,14 +248,27 @@ figcaption small {
 }
 
 .middle-text {
-  font-weight: bold;
   text-align: center;
+  margin: 10px;
+  font-size:15px;
+  font-weight: 800;
+  font-family: "Arial";
+  margin-bottom: 15px;
 }
 
 .middle-text a {
   color: rgb(50, 104, 145);
+  text-decoration: none;
 }
 /*4 Sidebar*/
+aside {
+    width: 210px;
+    float: right;
+}
+
+@media (min-width: 1150px){
+
+}
 /* Footer*/
 .ny-logo {
   display: block;
