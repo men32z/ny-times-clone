@@ -6,12 +6,19 @@
 /*5 Footer*/
 
 /*1 General */
+body{
+  margin: 0;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
 nav, main, footer,  section{
-float:left;
-width: 100%;
+  float:left;
+  width: 100%;
 }
 .block-left{
   float: left;
+}
+.block-right{
+  float: right;
 }
 .clearfix{
   clear: both;
@@ -23,6 +30,13 @@ header {
 .title {
   display: flex;
   justify-content: center;
+  font-family:
+    nyt-cheltenham,
+    georgia,
+    "times new roman",
+    times,
+    serif;
+  font-style: italic;
 }
 
 .main-picture {
@@ -36,9 +50,28 @@ header {
 }
 
 /*2.1 Nav*/
-.nav {
+nav {
+  position: fixed;
+  top: 0;
   background-color: white;
+  margin: 0;
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 5px;
 }
+
+nav div{
+  width: 33%;
+}
+.menu-list{
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  margin-top: 5px;
+}
+
 .menu-icon{
   display: inline-block;
   height: 16px;
@@ -63,6 +96,15 @@ header {
   justify-content: center;
 }
 
+.login-button{
+  justify-content: end;
+  display: flex;
+}
+.login-button button{
+  margin-right: 30px;
+  margin-top: 3px;
+}
+
 button {
   border-radius: 3px;
   cursor: pointer;
@@ -84,6 +126,48 @@ button {
 }
 
 /*3 Main Content*/
+main{
+  margin-top: 50px;
+}
+
+.comments{
+  align-items: center;
+  background: transparent none repeat scroll 0% 0%;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 4px;
+  min-width: 26px;
+  min-height: 14px;
+  padding: 4px;
+  position: relative;
+  width: auto;
+}
+
+
+
+.comments:before{
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0px 0px 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+}
+
+.comments:after{
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
+}
+
 .text-section{
   max-width: 600px;
   margin:0 auto;
@@ -91,6 +175,23 @@ button {
 
 .social-links{
   float: right;
+}
+
+.s-link{
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.flag{
+  margin-top: 10px;
 }
 
 .social-links ul{
