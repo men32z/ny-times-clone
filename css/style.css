@@ -36,18 +36,51 @@ header {
 }
 
 /*2.1 Nav*/
-
+.nav {
+  background-color: white;
+}
 .menu-icon{
   display: inline-block;
   height: 16px;
   vertical-align: sub;
   width: 16px;
+  border: 0;
+  margin-right: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #333;
+  font-size: 11px;
+  font-weight: 500;
+  align-items: flex-start;
 }
 
 .logo{
   width: 195px;
   height: 26px;
   margin: 6px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  text-transform: uppercase;
 }
 
 /*3 Main Content*/
@@ -55,24 +88,48 @@ header {
   max-width: 600px;
   margin:0 auto;
 }
+
 .social-links{
   float: right;
 }
+
 .social-links ul{
   list-style: none;
   margin-top:0;
 }
+
 .social-links ul li{
   display: inline;
   margin: 0 5px;
 }
+
 .author{
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 .article-date{
   float: left;
   margin-top:10px;
 }
+
+.middle-text {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.middle-text a {
+  color: rgb(50, 104, 145);
+}
 /*4 Sidebar*/
 /* Footer*/
+.ny-logo {
+  display: block;
+  height: 44px;
+  vertical-align: middle;
+  width: 184px;
+  text-size-adjust: 100%;
+  font: inherit;
+  cursor: pointer;
+}
