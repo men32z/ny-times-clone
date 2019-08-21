@@ -130,6 +130,18 @@ main{
   margin-top: 50px;
 }
 
+.main-picture figcaption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+figcaption small {
+  color: #888;
+}
+
 .comments{
   align-items: center;
   background: transparent none repeat scroll 0% 0%;
@@ -141,8 +153,6 @@ main{
   position: relative;
   width: auto;
 }
-
-
 
 .comments:before{
   border-color: rgb(102, 102, 102) transparent;
@@ -171,6 +181,14 @@ main{
 .text-section{
   max-width: 600px;
   margin:0 auto;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
+  color: #333;
+}
+
+.text-section a {
+  color: #326891;
 }
 
 .social-links{
@@ -215,9 +233,8 @@ main{
 }
 
 .middle-text {
-  display: flex;
-  justify-content: center;
   font-weight: bold;
+  text-align: center;
 }
 
 .middle-text a {
