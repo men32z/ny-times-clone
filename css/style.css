@@ -279,11 +279,14 @@ figcaption small {
 
 .middle-text {
   text-align: center;
-  margin: 10px;
+  margin: 10px auto 15px auto;
   font-size:15px;
   font-weight: 800;
   font-family: "Arial";
-  margin-bottom: 15px;
+}
+
+.middle-text-parent{
+  width: 600px;
 }
 
 .middle-text a {
@@ -373,6 +376,8 @@ figcaption small {
 aside {
     width: 210px;
     float: right;
+    margin-right: 100px;
+    margin-top: -100px;
 }
 
 aside h2{
@@ -388,13 +393,29 @@ aside h2{
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-article div {
+.aside-article-text {
+  max-width: 50%;
+  float: right;
+}
+
+.aside-article-image {
   max-width: 50%;
   float: left;
 }
+
 article div img{
   width: 75px;
   height: 75px;
+}
+article a{
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-size: 12px;
+  line-height: 17px;
+  color: black;
+  text-decoration: none;
+}
+article a div:hover{
+  text-decoration: underline;
 }
 
 @media (min-width: 1150px){
