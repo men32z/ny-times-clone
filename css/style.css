@@ -355,7 +355,7 @@ figcaption small {
 }
 
 .last-text {
-  font-family: 
+  font-family:
   nyt-franklin,
   helvetica,
   arial,
@@ -388,20 +388,13 @@ aside h2{
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-aside .aside-text {
-  margin: auto 0 auto 10px;
+article div {
   max-width: 50%;
-  float: right;
+  float: left;
 }
-
-aside img {
-  border: none;
-  height: auto;
-  max-width: 50%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
+article div img{
+  width: 75px;
+  height: 75px;
 }
 
 @media (min-width: 1150px){
