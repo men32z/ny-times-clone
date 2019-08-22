@@ -142,6 +142,36 @@ figcaption small {
   color: #888;
 }
 
+.image-back-1{
+  float: left;
+  width: 472.5px;
+  background: url("../images/inflation-945.png");
+}
+
+.image-back-2{
+  float: left;
+  width: 472.5px;
+  background: url("../images/inflation-945.png") -472.5px 0;
+}
+
+.image-child{
+    /*position*/
+    margin-top: 150px;
+    float: left;
+    width: 50%;
+    /*style text*/
+    padding:4px;
+    box-sizing: border-box;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+.image-child b{
+  font-weight:bold;
+}
+
 .line{
   width: 72px;
   border-bottom: 1px solid rgb(204, 204, 204);
@@ -281,7 +311,7 @@ figcaption small {
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
-  font-family: 
+  font-family:
   nyt-cheltenham-sh,
   georgia,
   times new roman,
@@ -296,7 +326,7 @@ figcaption small {
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  font-family: 
+  font-family:
   nyt-franklin,
   arial,
   helvetica,sans-serif;
@@ -312,7 +342,7 @@ figcaption small {
   line-height: 1.25rem;
   margin-right: 7px;
   color: #666;
-  font-family: 
+  font-family:
   nyt-imperial,
   georgia,
   'times new roman',
