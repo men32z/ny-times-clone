@@ -357,6 +357,26 @@ figcaption small {
   max-width: 600px;
 }
 
+.picture2-text {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  margin-bottom: 0;
+  color: #666;
+  font-family: 
+  nyt-imperial,
+  georgia,
+  'times new roman',
+  times,
+  serif;
+}
+
+.picture-2 span {
+  color: #888;
+  letter-spacing: 0.01em;
+  font-size: 0.75rem;
+}
+
 .last-text {
   font-family:
   nyt-franklin,
@@ -416,6 +436,11 @@ article a{
 }
 article a div:hover{
   text-decoration: underline;
+}
+
+.article-1 {
+  margin-bottom: 6px;
+  float:left;
 }
 
 @media (min-width: 1150px){
