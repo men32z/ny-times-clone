@@ -260,6 +260,69 @@ figcaption small {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
+
+.image-blocks {
+  max-width: 945px;
+}
+
+.image-blocks h2 {
+  font-size: 1.25rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  margin-bottom: 2px;
+}
+
+.image-blocks p {
+  font-size: .875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 
+  nyt-cheltenham-sh,
+  georgia,
+  times new roman,
+  times,
+  serif;
+  color: #666;
+}
+
+.image-blocks h6 {
+  font-size: .875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 
+  nyt-franklin,
+  arial,
+  helvetica,sans-serif;
+  color: #333;
+}
+
+.image-blocks img {
+  width: 100%;
+}
+
+.video-information {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: 
+  nyt-imperial,
+  georgia,
+  'times new roman',
+  times,
+  serif;
+}
+
+.picture-2 img {
+  max-width: 600px;
+}
 /*4 Sidebar*/
 aside {
     width: 210px;
