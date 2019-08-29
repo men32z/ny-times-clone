@@ -485,6 +485,75 @@ article a div:hover{
 
 }
 /* Footer*/
+
+.footer-top {
+  max-width: 1296px;
+  padding: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.footer-top-1 {
+  float: left;
+  width: 100%;
+}
+
+.footer-top-2 {
+  float: left;
+  width: 100%;
+}
+
+.footer-top-1-logo {
+  float: left;
+}
+
+.footer-top-1-link {
+  float: right;
+}
+
+.footer-top-1-link a {
+  color: rgb(98, 136, 165);
+  font-family: nyt-franklin, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.child-footer-top {
+  float: left;
+  width: 16.6%;
+}
+
+.child-footer-top h3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin, sans-serif;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.child-footer-top ul {
+  padding: 0;
+  list-style: none;
+}
+
+.child-footer-top ul li a {
+  color: black;
+  font-family: nyt-franklin, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.child-footer-top ul li a:hover {
+  text-decoration: underline;
+}
+
 .ny-logo {
   display: block;
   height: 44px;
