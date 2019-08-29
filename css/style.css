@@ -446,6 +446,39 @@ article a div:hover{
 @media (min-width: 1150px){
 
 }
+
+.bottom-container {
+  background-color: rgb(255, 255, 255);
+  border-top: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  max-width: 1200px;
+  margin-top: 45px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-container .row {
+  max-width: 852px;
+  height: 1097.250px;
+  background-color: rgb(255, 255, 255);
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.row-1 {
+  max-width: 852px;
+  height: 718.500px;
+  font: inherit;
+  vertical-align: baseline;
+  display: block;
+}
+
+.row-2 {
+
+}
 /* Footer*/
 .ny-logo {
   display: block;
