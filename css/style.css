@@ -453,9 +453,7 @@ article a div:hover{
 }
 
 .bottom-container {
-  background-color: lightsalmon;
   width: 1200px;
-  height: 1086.920px;
   margin-top: 45px;
   padding-top: 20px;
   margin-left: auto;
@@ -465,13 +463,6 @@ article a div:hover{
   align-items: flex-end;
 }
 
-.bottom-container .row {
-  max-width: 852px;
-  background-color: rgb(255, 255, 255);
-  font: inherit;
-  vertical-align: baseline;
-}
-
 .row-1 {
   max-width: 852px;
   font: inherit;
@@ -479,13 +470,67 @@ article a div:hover{
   display: block;
 }
 
+.bottom-container h2 a {
+  text-decoration: none;
+}
+
+.bottom-container h2 a:hover {
+  text-decoration: underline;
+}
+
+.row1-title {
+  color:black;
+  font-family:nyt-franklin, helvetica, arial, sans-serif;
+  font-size:16px;
+}
+
 .boxes{
   width:100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+a.mini-box {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+}
+
+
 
 .mini-box{
   width: 272px;
-  float: left;
+  padding-bottom: 40px;
+}
+
+.mini-box-text {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size:18px;
+  color: rgb(18, 18, 18);
+}
+
+.mini-box-text:hover {
+  color: rgb(102, 102, 102);
+}
+
+.mini-box-text small {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size:12px;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+}
+
+.mini-box figure {
+  width: 100%;
+  margin: 0;
+}
+
+.mini-box figure figcaption {
+  text-align: right;
+  font-family:nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.625rem;
+  padding-bottom: 4px;
+  color: rgb(153, 153, 153);
 }
 
 .mini-box img {
