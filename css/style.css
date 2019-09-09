@@ -453,21 +453,20 @@ article a div:hover{
 }
 
 .bottom-container {
-  background-color: rgb(255, 255, 255);
-  border-top: none;
-  padding-left: 3%;
-  padding-right: 3%;
-  display: flex;
-  max-width: 1200px;
+  background-color: lightsalmon;
+  width: 1200px;
+  height: 1086.920px;
   margin-top: 45px;
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  border-top: 1px solid rgb(226, 226, 226);
+  display: flex;
+  align-items: flex-end;
 }
 
 .bottom-container .row {
   max-width: 852px;
-  height: 1097.250px;
   background-color: rgb(255, 255, 255);
   font: inherit;
   vertical-align: baseline;
@@ -475,13 +474,24 @@ article a div:hover{
 
 .row-1 {
   max-width: 852px;
-  height: 718.500px;
   font: inherit;
   vertical-align: baseline;
   display: block;
 }
 
-.row-2 {
+.boxes{
+  width:100%;
+}
+
+.mini-box{
+  width: 272px;
+  float: left;
+}
+
+.mini-box img {
+  width: 100%;
+}
+.side-bar {
 
 }
 /* Footer*/
