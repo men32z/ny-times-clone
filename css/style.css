@@ -464,10 +464,10 @@ article a div:hover{
 }
 
 .row-1 {
-  max-width: 852px;
+  width: 852px;
   font: inherit;
   vertical-align: baseline;
-  display: block;
+  float: left;
 }
 
 .bottom-container h2 a {
