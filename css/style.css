@@ -6,9 +6,6 @@
 /*5 Footer*/
 
 /*1 General */
-* {
-  border: 1px red solid;
-}
 body{
   margin: 0;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -572,7 +569,7 @@ a.mini-box {
 }
 
 .aside-bar a {
-  text-decoration: none; 
+  text-decoration: none;
   color: rgb(102, 102, 102);
   font-size: 19px;
   line-height: 23px;
