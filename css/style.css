@@ -96,13 +96,10 @@ nav div{
   justify-content: center;
 }
 
-.login-button{
-  justify-content: end;
-  display: flex;
-}
-.login-button button{
+button.login-button{
   margin-right: 30px;
   margin-top: 3px;
+  float: right;
 }
 
 button {
@@ -190,7 +187,7 @@ figcaption small {
   border-radius: 4px;
   min-width: 26px;
   min-height: 14px;
-  padding: 4px;
+  padding: 2px 4px;
   position: relative;
   width: auto;
 }
@@ -229,7 +226,7 @@ figcaption small {
 
 .text-section{
   float: left;
-  max-width: 600px;
+  width: 600px;
   margin-left: calc((100% - 600px)/2);
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -259,7 +256,8 @@ figcaption small {
 }
 
 .flag{
-  margin-top: 10px;
+  bottom: -8px;
+  position: relative;
 }
 
 .social-links ul{
@@ -341,8 +339,23 @@ figcaption small {
   color: #333;
 }
 
+.last-text a {
+  color: #999;
+  text-decoration: none;
+}
+
+.last-text a:hover {
+  text-decoration: underline;
+}
+
 .image-blocks img {
   width: 100%;
+}
+
+.text-section-details {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .video-information {
@@ -478,6 +491,27 @@ article a div:hover{
   text-decoration: underline;
 }
 
+.bottom-container h2 {
+  margin: 20px 0;
+}
+
+.bottom-container aside h2 {
+  font-size: 1em;
+  margin: 20px 0;
+  font-weight: bold;
+  border:none;
+}
+
+.bottom-container aside ul a {
+  color: rgb(18, 18, 18);
+}
+.bottom-container aside ul a:hover {
+  color: rgb(102, 102, 102);
+}
+.bottom-container aside.aside-bar ul {
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
 .row1-title {
   color:black;
   font-family:nyt-franklin, helvetica, arial, sans-serif;
@@ -595,6 +629,15 @@ a.mini-box {
   width: 100%;
 }
 
+.footer-top-1::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
+
 .footer-top-2 {
   float: left;
   width: 100%;
@@ -621,7 +664,39 @@ a.mini-box {
 .child-footer-top {
   float: left;
   width: 16.6%;
+  box-sizing: border-box;
 }
+
+.child-footer-top.right-links ul li a{
+  font-size: 11px;
+}
+
+
+.child-footer-top.right-links ul:nth-child(2) li{
+  height: 25px;
+  line-height: 15px;
+
+}
+.child-footer-top.right-links ul:nth-child(2) li a svg{
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.child-footer-top.right-links ul:nth-child(2) li a{
+  color: rgb(0, 0, 0);
+  font-family: nyt-franklin, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+
 
 .child-footer-top h3 {
   color: rgb(51, 51, 51);
@@ -649,6 +724,11 @@ a.mini-box {
 
 .child-footer-top ul li a:hover {
   text-decoration: underline;
+}
+
+.child-footer-top:nth-last-child(1) {
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
 }
 
 .ny-logo {
