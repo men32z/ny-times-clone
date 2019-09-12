@@ -5,7 +5,7 @@ This assignment consists of making a clone of a New York Times article page. You
 
 ## Live Version:
 
-You can check the live version [here](https://raw.githack.com/men32z/ny-times-clone/first-version/index.html)
+You can check the live version [here](https://men32z.github.io/ny-times-clone/)
 
 ## Source Page:
 
